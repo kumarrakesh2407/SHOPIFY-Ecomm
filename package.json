@@ -3,14 +3,8 @@
   "version": "1.0.0",
   "description": "E-commerce application for Vercel deployment",
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "echo 'Run locally with static server'",
     "build": "echo 'No build step needed for static frontend'",
-    "start": "vercel dev"
-  },
-  "dependencies": {
-    "vercel": "^32.4.1"
-  },
-  "devDependencies": {
-    "@vercel/node": "^3.0.0"
+    "start": "echo 'No start step needed'"
   }
 }
